@@ -105,7 +105,7 @@ public class A_bva {
     }
     
     @Test
-    public void A_max_plus_1_ep_1000_and_up() {
+    public void A_max_plus_1_ep_upper_than_1000() {
         
         int a = 1001; 
         int b = 100;
