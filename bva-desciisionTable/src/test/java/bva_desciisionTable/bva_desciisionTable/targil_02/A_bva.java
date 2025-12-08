@@ -73,22 +73,6 @@ public class A_bva {
     }  
 
     @Test
-    public void A_max_ep_1_1000() {
-        
-        int a = 1000; 
-        int b = 100;
-        int c = 100;
-        int d = 100;
-        int e = 100;
-
-        // act
-        int result = MinCalculator.findMin(a, b, c, d, e);
-
-        // assert
-        assertEquals(100, result);   // 100 הוא הערך המינימלי
-    }
-    
-    @Test
     public void A_max_minus_1_ep_1_1000() {
         
         int a = 999; 
@@ -103,6 +87,22 @@ public class A_bva {
         // assert
         assertEquals(100, result);   // 100 הוא הערך המינימלי
     } 
+
+    @Test
+    public void A_max_ep_1_1000() {
+        
+        int a = 1000; 
+        int b = 100;
+        int c = 100;
+        int d = 100;
+        int e = 100;
+
+        // act
+        int result = MinCalculator.findMin(a, b, c, d, e);
+
+        // assert
+        assertEquals(100, result);   // 100 הוא הערך המינימלי
+    }
     
     @Test
     public void A_max_plus_1_ep_1000_and_up() {
